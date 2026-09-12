@@ -9,7 +9,7 @@ function scr_player_handstandjump()
 	    dir = xscale;
 	    
 	    if (movespeed < 10 && grounded)
-	        movespeed += 0.5;
+	        movespeed += 1;
 	    else if (!grounded)
 	        movespeed = 10;
 	    
@@ -48,7 +48,7 @@ function scr_player_handstandjump()
 	            machhitAnim = 0;
 	        
 	        state = 67;
-	        movespeed = 15;
+	        movespeed = 12;
 	    }
 	    
 	    if (!grounded && (sprite_index == spr_player_suplexdash || sprite_index == spr_shotgun_suplexdash))

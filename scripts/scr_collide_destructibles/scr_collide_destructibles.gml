@@ -95,11 +95,6 @@ function scr_collide_destructibles()
 	                {
 	                    if (shotgunAnim == 0)
 	                    {
-	                        sprite_index = choose(spr_player_suplexmash1, spr_player_suplexmash2, spr_player_suplexmash3, spr_player_suplexmash4, spr_player_suplexmash5, spr_player_suplexmash6, spr_player_suplexmash7);
-	                        image_index = 0;
-	                        state = 56;
-	                        movespeed = 3;
-	                        vsp = -3;
 	                        instance_destroy(other.id);
 	                    }
 	                    else

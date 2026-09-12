@@ -71,6 +71,6 @@ function scr_player_crouchslide()
 		movespeed = 14;
 		state = 89;
 		vsp = -5.5
-		sprite_index = spr_mach2jump;
+		sprite_index = choose(spr_player_suplexmash3, spr_player_suplexmash6, spr_player_mach2jump);
 	}
 }
