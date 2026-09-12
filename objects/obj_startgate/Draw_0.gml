@@ -1,5 +1,5 @@
 draw_self();
-font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:", 1, 0);
+font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:/", 1, 0);
 draw_set_font(font);
 draw_set_halign(fa_center);
 draw_set_color(c_white);
@@ -12,19 +12,20 @@ if (place_meeting(x, y, obj_player))
     if (level == "medieval")
     {
         draw_text(x, y - 150, global.medievalhighscore);
-        draw_text(x, y - 200, string(global.medievalsecret) + " OF 6 SECRET");
+        draw_text(x, y - 200, string(global.medievalsecret) + "/6 ");
+		draw_sprite(spr_gatesecreteyeopen, -10, x + 75, y - 185);
     }
     
     if (level == "ruin")
     {
         draw_text(x, y - 150, global.ruinhighscore);
-        draw_text(x, y - 200, string(global.ruinsecret) + " OF 6 SECRET");
+        draw_text(x, y - 200, string(global.ruinsecret) + "/6 SECRETS");
     }
     
     if (level == "dungeon")
     {
         draw_text(x, y - 150, global.dungeonhighscore);
-        draw_text(x, y - 200, string(global.dungeonsecret) + " OF 6 SECRET");
+        draw_text(x, y - 200, string(global.dungeonsecret) + "/6 SECRETS");
     }
     
     if (level == "snickchallenge")

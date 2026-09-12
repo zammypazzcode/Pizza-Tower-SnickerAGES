@@ -178,4 +178,38 @@ function scr_player_mach1()
 	    sprite_index = spr_taunt;
 	    instance_create(x, y, obj_taunteffect);
 	}
+	
+		if (key_slap2 && character == "P" && !(shotgunAnim == 1 && key_up))
+	{
+	    suplexmove = 1;
+	    scr_soundeffect(sfx_suplexdash);
+	    state = 21;
+	    image_index = 0;
+	    
+	    if (shotgunAnim == 0)
+	        sprite_index = spr_player_suplexdash;
+	    else
+	        sprite_index = spr_shotgun_suplexdash;
+	    
+	    movespeed = 6;
+	}
+	
+	if (key_slap2 && character == "P" && (shotgunAnim == 1 && key_up))
+	{
+	    scr_soundeffect(sfx_killingblow);
+	    state = 37;
+	    
+	    with (instance_create(x, y, obj_pistoleffect))
+	        image_xscale = other.image_xscale;
+	    
+	    image_index = 0;
+	    sprite_index = spr_player_shotgun;
+	    instance_create(x + (image_xscale * 20), y + 20, obj_shotgunbullet);
+	    
+	    with (instance_create(x + (image_xscale * 20), y + 20, obj_shotgunbullet))
+	        spdh = 4;
+	    
+	    with (instance_create(x + (image_xscale * 20), y + 20, obj_shotgunbullet))
+	        spdh = -4;
+	}
 }

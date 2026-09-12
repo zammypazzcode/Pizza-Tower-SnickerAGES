@@ -7,9 +7,6 @@ function scr_player_crouchslide()
 	else if (place_meeting(x, y + 1, obj_railh2))
 	    hsp = (xscale * movespeed) + 5;
 	
-	if (movespeed >= 0)
-	    movespeed -= 0.2;
-	
 	mask_index = spr_crouchmask;
 	
 	if (mach2 >= 35 && !key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16) && key_attack && sprite_index != spr_player_shootslide)
@@ -69,4 +66,11 @@ function scr_player_crouchslide()
 	}
 	
 	image_speed = 0.35;
+	
+	if (grounded && key_jump && !place_meeting(x, y - 1, obj_solid)) {
+		movespeed = 14;
+		state = 89;
+		vsp = -5.5
+		sprite_index = spr_mach2jump;
+	}
 }

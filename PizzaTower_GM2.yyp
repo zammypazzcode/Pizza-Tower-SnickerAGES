@@ -371,6 +371,7 @@
     {"id":{"name":"medieval_treasure","path":"rooms/medieval_treasure/medieval_treasure.yy",},"order":12,},
     {"id":{"name":"medieval_6","path":"rooms/medieval_6/medieval_6.yy",},"order":6,},
     {"id":{"name":"medieval_secret5","path":"rooms/medieval_secret5/medieval_secret5.yy",},"order":5,},
+    {"id":{"name":"spr_gatesecreteyeopen","path":"sprites/spr_gatesecreteyeopen/spr_gatesecreteyeopen.yy",},"order":1991,},
     {"id":{"name":"medieval_7","path":"rooms/medieval_7/medieval_7.yy",},"order":7,},
     {"id":{"name":"medieval_8","path":"rooms/medieval_8/medieval_8.yy",},"order":8,},
     {"id":{"name":"medieval_pizzamart","path":"rooms/medieval_pizzamart/medieval_pizzamart.yy",},"order":10,},
