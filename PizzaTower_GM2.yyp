@@ -1192,6 +1192,7 @@
     {"id":{"name":"spr_player_piledriverland","path":"sprites/spr_player_piledriverland/spr_player_piledriverland.yy",},"order":1185,},
     {"id":{"name":"spr_player_piledriver","path":"sprites/spr_player_piledriver/spr_player_piledriver.yy",},"order":1186,},
     {"id":{"name":"spr_player_grabmove","path":"sprites/spr_player_grabmove/spr_player_grabmove.yy",},"order":1187,},
+    {"id":{"name":"spr_gatesecreteyeclosed","path":"sprites/spr_gatesecreteyeclosed/spr_gatesecreteyeclosed.yy",},"order":1992,},
     {"id":{"name":"spr_player_chainsawswing","path":"sprites/spr_player_chainsawswing/spr_player_chainsawswing.yy",},"order":1188,},
     {"id":{"name":"spr_player_facehurtup","path":"sprites/spr_player_facehurtup/spr_player_facehurtup.yy",},"order":1189,},
     {"id":{"name":"spr_player_facehurt","path":"sprites/spr_player_facehurt/spr_player_facehurt.yy",},"order":1190,},

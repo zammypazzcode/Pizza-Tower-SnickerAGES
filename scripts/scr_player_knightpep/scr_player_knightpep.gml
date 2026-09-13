@@ -3,6 +3,7 @@ function scr_player_knightpep()
 	alarm[5] = 2;
 	alarm[7] = 60;
 	global.SAGEknighttaken = 1;
+	var double_jumped = false;
 	
 	if (sprite_index == spr_knightpepwalk || sprite_index == spr_knightpepjump || sprite_index == spr_knightpepfall || sprite_index == spr_knightpepidle)
 	{
@@ -90,6 +91,7 @@ function scr_player_knightpep()
 	
 	if (floor(image_index) == (image_number - 1) && sprite_index == spr_knightpepland)
 	    sprite_index = spr_knightpepidle;
+		double_jumped = false;
 	
 	if (move != 0)
 	    xscale = move;

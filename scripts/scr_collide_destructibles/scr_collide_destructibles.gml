@@ -54,23 +54,7 @@ function scr_collide_destructibles()
 	    if (place_meeting(x, y + vsp + 2, obj_destructibles))
 	    {
 	        with (instance_place(x, y + vsp + 2, obj_destructibles))
-	        {
-	            with (obj_player)
-	            {
-	                if (place_meeting(x, y + vsp + 2, obj_bigdestructibles))
-	                {
-	                    if (shotgunAnim == 0)
-	                        sprite_index = spr_bodyslamland;
-	                    else
-	                        sprite_index = spr_player_shotgunjump2;
-	                    
-	                    state = 76;
-	                    image_index = 0;
-	                }
-	            }
-	            
 	            instance_destroy();
-	        }
 	    }
 	}
 	
@@ -128,6 +112,14 @@ function scr_collide_destructibles()
 	        instance_destroy(instance_place(x + hsp, y, obj_destructibles));
 	    
 	    if (place_meeting(x, y + vsp, obj_destructibles) && thrown == 1)
+	        instance_destroy(instance_place(x + vsp, y, obj_destructibles));
+	}
+	
+	if (state = 67) {
+		if (place_meeting(x + hsp, y, obj_destructibles))
+	        instance_destroy(instance_place(x + hsp, y, obj_destructibles));
+	    
+	    if (place_meeting(x, y + vsp, obj_destructibles))
 	        instance_destroy(instance_place(x + vsp, y, obj_destructibles));
 	}
 }

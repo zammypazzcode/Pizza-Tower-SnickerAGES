@@ -1,4 +1,4 @@
-if (room == rank_room || room == timesuproom || room == boss_room1 || room == Realtitlescreen)
+if (room == rank_room || room == timesuproom || room == boss_room1 || room == Realtitlescreen ||room == Scootertransition || room == hub_room1 || room == cowboytask)
     alpha = 0;
 
 if (room == entrance_1)

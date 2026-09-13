@@ -68,9 +68,9 @@ function scr_player_crouchslide()
 	image_speed = 0.35;
 	
 	if (grounded && key_jump && !place_meeting(x, y - 1, obj_solid)) {
-		movespeed = 14;
+		movespeed = 15;
 		state = 89;
 		vsp = -5.5
-		sprite_index = choose(spr_player_suplexmash3, spr_player_suplexmash6, spr_player_mach2jump);
+		sprite_index = spr_player_mach2jump;
 	}
 }
