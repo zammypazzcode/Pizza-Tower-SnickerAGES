@@ -73,6 +73,15 @@ if (instance_exists(obj_itspizzatime))
     showtext = 1;
     tvsprite = spr_tvexit;
 }
+else if (global.collect > global.srank && shownranka == 0 && obj_player.character == "P")
+{
+    image_speed = 0;
+    message = "YOU GOT ENOUGH FOR RANK S!";
+    showtext = 1;
+    alarm[0] = 200;
+    tvsprite = spr_tvranka;
+    shownranka = 1;
+}
 else if (global.collect > global.arank && shownranka == 0 && obj_player.character == "P")
 {
     image_speed = 0;
@@ -135,7 +144,7 @@ else if (global.hurtcounter >= global.hurtmilestone && obj_player.character == "
     if obj_player.character == "P"
         character = "PEPPINO";
     else
-        character = "THE NOISE";
+        character = "SNICK";
     
     message = "YOU HAVE HURT " + string(character) + " " + string(global.hurtmilestone) + " TIMES...";
     

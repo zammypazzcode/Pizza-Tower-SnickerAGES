@@ -13,30 +13,30 @@ if (place_meeting(x, y, obj_player))
     {
         draw_text(x, y - 150, global.medievalhighscore);
         draw_text(x - 25, y - 200, string(global.medievalsecret) + "/6");
-		if (global.medievalsecret = 6) {
+		if (global.medievalsecret = 6)
 			draw_sprite(spr_gatesecreteyeopen, -10, x + 45, y - 185);
-		} else {
-			draw_sprite(spr_gatesecreteyeclosed, -10, x + 5, y - 185);
+		else
+			draw_sprite(spr_gatesecreteyeclosed, -10, x + 45, y - 185);
     }
     
     if (level == "ruin")
     {
         draw_text(x, y - 150, global.ruinhighscore);
         draw_text(x - 25, y - 200, string(global.ruinsecret) + "/6");
-		if (global.ruinsecret = 6) {
+		if (global.ruinsecret = 6)
 			draw_sprite(spr_gatesecreteyeopen, -10, x + 45, y - 185);
-		} else {
-			draw_sprite(spr_gatesecreteyeclosed, -10, x + 5, y - 185);
+		else
+			draw_sprite(spr_gatesecreteyeclosed, -10, x + 45, y - 185);
     }
     
     if (level == "dungeon")
     {
         draw_text(x, y - 150, global.dungeonhighscore);
         draw_text(x - 25, y - 200, string(global.dungeonsecret) + "/6");
-		if (global.dungeonsecret = 6) {
+		if (global.dungeonsecret = 6)
 			draw_sprite(spr_gatesecreteyeopen, -10, x + 45, y - 185);
-		} else {
-			draw_sprite(spr_gatesecreteyeclosed, -10, x + 5, y - 185);
+		else
+			draw_sprite(spr_gatesecreteyeclosed, -10, x + 45, y - 185);
     }
     
     if (level == "snickchallenge")

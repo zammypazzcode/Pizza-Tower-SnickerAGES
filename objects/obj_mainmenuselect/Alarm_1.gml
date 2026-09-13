@@ -1,1 +1,1 @@
-instance_create(x, y, obj_option);
+instance_create(x, y, obj_manual);
