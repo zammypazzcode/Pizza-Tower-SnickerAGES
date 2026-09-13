@@ -1,12 +1,11 @@
 {
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "__view_set",
   "isDnD": false,
   "isCompatibility": true,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Scripts.yy"
+    "path": "folders/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "__view_set",
-  "tags": [],
-  "resourceType": "GMScript"
 }

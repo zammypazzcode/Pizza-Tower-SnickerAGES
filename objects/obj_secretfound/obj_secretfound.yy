@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_secretfound",
   "spriteId": {
     "name": "spr_pizzakinsausage_underwater",
-    "path": "sprites/spr_pizzakinsausage_underwater/spr_pizzakinsausage_underwater.yy"
+    "path": "sprites/spr_pizzakinsausage_underwater/spr_pizzakinsausage_underwater.yy",
   },
   "solid": false,
   "visible": false,
@@ -22,25 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_secretfound",
-  "tags": [],
-  "resourceType": "GMObject"
 }

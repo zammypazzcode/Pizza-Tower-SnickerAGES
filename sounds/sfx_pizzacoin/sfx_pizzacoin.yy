@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_pizzacoin",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.36,
@@ -9,16 +12,12 @@
   "bitDepth": 1,
   "audioGroupId": {
     "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default"
+    "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_pizzacoin",
   "duration": 1.548,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy"
+    "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_pizzacoin",
-  "tags": [],
-  "resourceType": "GMSound"
 }

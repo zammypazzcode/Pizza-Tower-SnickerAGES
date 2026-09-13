@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_tumble3",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.69,
@@ -9,16 +12,12 @@
   "bitDepth": 1,
   "audioGroupId": {
     "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default"
+    "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_tumble3",
   "duration": 2.41,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy"
+    "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_tumble3",
-  "tags": [],
-  "resourceType": "GMSound"
 }

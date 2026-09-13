@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_knightslide",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.74,
@@ -9,16 +12,12 @@
   "bitDepth": 1,
   "audioGroupId": {
     "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default"
+    "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_knightslide",
   "duration": 1.632,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy"
+    "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_knightslide",
-  "tags": [],
-  "resourceType": "GMSound"
 }

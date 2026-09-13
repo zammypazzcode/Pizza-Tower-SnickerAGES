@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_doorE",
   "spriteId": {
     "name": "sprite1224",
-    "path": "sprites/sprite1224/sprite1224.yy"
+    "path": "sprites/sprite1224/sprite1224.yy",
   },
   "solid": false,
   "visible": false,
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_doorE",
-  "tags": [],
-  "resourceType": "GMObject"
 }

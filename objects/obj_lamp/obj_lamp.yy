@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_lamp",
   "spriteId": {
     "name": "spr_lamp",
-    "path": "sprites/spr_lamp/spr_lamp.yy"
+    "path": "sprites/spr_lamp/spr_lamp.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,25 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_lamp",
-  "tags": [],
-  "resourceType": "GMObject"
 }

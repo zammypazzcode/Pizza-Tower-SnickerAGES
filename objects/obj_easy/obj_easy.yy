@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_easy",
   "spriteId": {
     "name": "spr_easy",
-    "path": "sprites/spr_easy/spr_easy.yy"
+    "path": "sprites/spr_easy/spr_easy.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_easy",
-  "tags": [],
-  "resourceType": "GMObject"
 }

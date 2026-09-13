@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_railh",
   "spriteId": {
     "name": "spr_railh",
-    "path": "sprites/spr_railh/spr_railh.yy"
+    "path": "sprites/spr_railh/spr_railh.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy"
+    "path": "objects/obj_solid/obj_solid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,10 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_railh",
-  "tags": [],
-  "resourceType": "GMObject"
 }

@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_cavern_tileset",
   "spriteId": {
     "name": "tile_cavern_tileset_sprite",
-    "path": "sprites/tile_cavern_tileset_sprite/tile_cavern_tileset_sprite.yy"
+    "path": "sprites/tile_cavern_tileset_sprite/tile_cavern_tileset_sprite.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -12,7 +15,7 @@
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
-    "path": "texturegroups/Default"
+    "path": "texturegroups/Default",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
@@ -202,22 +205,17 @@
       176,
       177,
       178,
-      179
+      179,
     ],
-    "SerialiseFrameCount": 1
+    "SerialiseFrameCount": 1,
   },
   "macroPageTiles": {
-    "TileDataFormat": 0,
     "SerialiseWidth": 0,
     "SerialiseHeight": 0,
-    "TileSerialiseData": []
+    "TileSerialiseData": [],
   },
   "parent": {
     "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy"
+    "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tile_cavern_tileset",
-  "tags": [],
-  "resourceType": "GMTileSet"
 }

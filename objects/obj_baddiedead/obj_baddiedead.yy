@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_baddiedead",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -23,10 +26,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_baddiedead",
-  "tags": [],
-  "resourceType": "GMObject"
 }

@@ -22,8 +22,7 @@ function scr_player_bombpep()
 	
 	if (sprite_index == spr_bombpeprun || sprite_index == spr_bombpeprunabouttoexplode)
 	{
-	    if (movespeed <= 8)
-	        movespeed += 0.2;
+	    movespeed += 0.2;
 	    
 	    move = key_left + key_right;
 	    

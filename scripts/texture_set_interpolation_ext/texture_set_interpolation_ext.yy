@@ -1,12 +1,11 @@
 {
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "texture_set_interpolation_ext",
   "isDnD": false,
   "isCompatibility": true,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Scripts.yy"
+    "path": "folders/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "texture_set_interpolation_ext",
-  "tags": [],
-  "resourceType": "GMScript"
 }

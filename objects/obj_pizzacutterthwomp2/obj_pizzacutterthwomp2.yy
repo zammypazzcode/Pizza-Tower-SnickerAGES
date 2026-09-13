@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pizzacutterthwomp2",
   "spriteId": {
     "name": "spr_pizzacutterholder",
-    "path": "sprites/spr_pizzacutterholder/spr_pizzacutterholder.yy"
+    "path": "sprites/spr_pizzacutterholder/spr_pizzacutterholder.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pizzacutterthwomp2",
-  "tags": [],
-  "resourceType": "GMObject"
 }

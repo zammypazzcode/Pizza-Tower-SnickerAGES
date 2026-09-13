@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_boss",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -7,7 +10,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_baddie",
-    "path": "objects/obj_baddie/obj_baddie.yy"
+    "path": "objects/obj_baddie/obj_baddie.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_boss",
-  "tags": [],
-  "resourceType": "GMObject"
 }

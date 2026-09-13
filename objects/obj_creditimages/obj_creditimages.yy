@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_creditimages",
   "spriteId": {
     "name": "spr_credittransformation",
-    "path": "sprites/spr_credittransformation/spr_credittransformation.yy"
+    "path": "sprites/spr_credittransformation/spr_credittransformation.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,25 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_creditimages",
-  "tags": [],
-  "resourceType": "GMObject"
 }

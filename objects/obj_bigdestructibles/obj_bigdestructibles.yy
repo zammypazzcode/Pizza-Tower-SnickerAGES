@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bigdestructibles",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -7,7 +10,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_destructibles",
-    "path": "objects/obj_destructibles/obj_destructibles.yy"
+    "path": "objects/obj_destructibles/obj_destructibles.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bigdestructibles",
-  "tags": [],
-  "resourceType": "GMObject"
 }

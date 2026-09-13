@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_doortransition",
   "spriteId": {
     "name": "spr_doortransition",
-    "path": "sprites/spr_doortransition/spr_doortransition.yy"
+    "path": "sprites/spr_doortransition/spr_doortransition.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,35 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_doortransition",
-  "tags": [],
-  "resourceType": "GMObject"
 }

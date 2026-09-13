@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_breakabledoor",
   "spriteId": {
     "name": "spr_breakabledoor",
-    "path": "sprites/spr_breakabledoor/spr_breakabledoor.yy"
+    "path": "sprites/spr_breakabledoor/spr_breakabledoor.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_destructibles",
-    "path": "objects/obj_destructibles/obj_destructibles.yy"
+    "path": "objects/obj_destructibles/obj_destructibles.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,25 +28,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 1,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_breakabledoor",
-  "tags": [],
-  "resourceType": "GMObject"
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_baddiecollisionbox",
   "spriteId": null,
   "solid": false,
   "visible": false,
@@ -19,126 +22,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_baddiecollisionbox",
-        "path": "objects/obj_baddiecollisionbox/obj_baddiecollisionbox.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_firemouth_projectile",
-        "path": "objects/obj_firemouth_projectile/obj_firemouth_projectile.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_motocycle",
-        "path": "objects/obj_motocycle/obj_motocycle.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_breakabletv",
-        "path": "objects/obj_breakabletv/obj_breakabletv.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_destructibles",
-        "path": "objects/obj_destructibles/obj_destructibles.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_bombexplosion",
-        "path": "objects/obj_bombexplosion/obj_bombexplosion.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 4,
-      "collisionObjectId": {
-        "name": "obj_shotgunbullet",
-        "path": "objects/obj_shotgunbullet/obj_shotgunbullet.yy"
-      },
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_firemouth_projectile","path":"objects/obj_firemouth_projectile/obj_firemouth_projectile.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_motocycle","path":"objects/obj_motocycle/obj_motocycle.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_breakabletv","path":"objects/obj_breakabletv/obj_breakabletv.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_destructibles","path":"objects/obj_destructibles/obj_destructibles.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bombexplosion","path":"objects/obj_bombexplosion/obj_bombexplosion.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_shotgunbullet","path":"objects/obj_shotgunbullet/obj_shotgunbullet.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_baddiecollisionbox",
-  "tags": [],
-  "resourceType": "GMObject"
 }

@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_door2",
   "spriteId": {
     "name": "spr_doorunvisited",
-    "path": "sprites/spr_doorunvisited/spr_doorunvisited.yy"
+    "path": "sprites/spr_doorunvisited/spr_doorunvisited.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_door",
-    "path": "objects/obj_door/obj_door.yy"
+    "path": "objects/obj_door/obj_door.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,45 +28,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 4,
-      "eventType": 7,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy"
+    "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_door2",
-  "tags": [],
-  "resourceType": "GMObject"
 }
